@@ -13,7 +13,7 @@ for(var i=0; i < ages.length; i++){
 avg = sum / ages.length         //Using ages.length to find the average of the number of letters found in the array. 
 console.log(avg)
 
-var last = ages[ages.length - 1] 
+var last = ages[ages.length - 1]                     // Using this code to access the first and last elements of the array and then subtracting them. 
 var first = ages[ages.length - ages.length] 
 diff = last - first 
 
